@@ -87,7 +87,7 @@ Red is average IQ, green is the total amount of culture, blue is the error level
 ## How to run
 
 ```
-pip install pgzero, pandas, plotly
+pip install pgzero pandas plotly
 ```
 
 Then, run 
@@ -96,7 +96,7 @@ Then, run
 python simulate.py 
 ```
 
-and watch the movie. Stop it after 30k generations. It creates a CSV file with results. View it with:
+and watch the movie. Stop it after ~40k generations. It creates a CSV file with results. View it with:
 
 ```
 python show.py file.csv
