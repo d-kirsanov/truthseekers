@@ -62,7 +62,7 @@ Length of life increases by 50%. This has a similar effect to the AI revolution,
 
 Every revolution shoots up the amount of culture in society, but Internet leads to a disaster in error levels. Noise almost drowns out the signal.
 
-Still, if we survive the stupid-people-with-internet era (current), future developments are more promising as they are likely to suppress the error rate, even though it has a tendency to creep back up after each revolution. We will likely never get to the low error level of pre-internet, but perhaps we can still progress so long as it remains stable and below 0.5 (i.e. truth still outnumbering untruth).
+Still, if we survive the stupid-people-with-internet era (current), future developments are more promising as they are likely to suppress the error rate (and dramatically expand culture as well), even though errors have a tendency to creep back up after each revolution. We will likely never get to the low error level of pre-internet, but perhaps we can still progress so long as it remains stable and below 0.5 (i.e. truth still outnumbering untruth).
 
 This leaves out a lot of possible factors. Some are negative:
 
@@ -77,8 +77,8 @@ Others are likely positive:
 * truth corrects already-learned untruth
 * assortative mating
 * positive effect of IQ on longevity
-* positive effect of the amount of personal truth on IQ
-* negative effect of the amount of personal error on IQ
+* positive effect of the amount of personal truth on IQ/longevity
+* negative effect of the amount of personal error on IQ/longevity
 
 Overall, with the number of moving parts even in this primitive simulation, the system is surprisingly stable, chugging along and finding some kind of equilibrium even in the least favorable conditions.
 
