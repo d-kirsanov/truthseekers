@@ -6,7 +6,7 @@ The model is primitive, oversimplified, unrealistic etc. However, it includes th
 
 ## Population
 
-There is a limited population of 500 individuals who are born, breed, and die. (The population is limited because i'm not studying population growth but other things.)
+There is a limited population of 500 individuals who are born, breed, and die. (The population is limited because I'm not studying population growth but other things.)
 
 Every individual has an IQ that is partly (0.6) inherited from average of parents, partly Gaussian random (mean 100, deviation 15).
 
@@ -22,11 +22,11 @@ Also, each individual broadcasts their version of truth at random moments, to it
 
 Those who hear the broadcast check if it's longer than theirs, and if so, expand their personal truth by taking one next letter from what they heard. 
 
-Broadcasting incurs errors: randomly, people mishear and add a different letter to their version of truth.
+Both discovering and broadcasting incurs errors: randomly, people mishear and add a different letter to their version of truth.
 
-Your IQ affects how often you discover next letter of truth (+10), how often you broadcast it (+10), and how often you make errors hearing (-10). Also, IQ negatively affects fertility (-5).
+Your IQ affects how often you discover next letter of truth (+10), how often you broadcast it (+10), and how often you make errors (-10). Also, IQ negatively affects fertility (-5).
 
-(+10 means that there's a +100% change to probability for IQ difference of 10 points)
+(+10 means that there's a +10% change to probability for IQ difference of 1 point)
 
 ## History
 
@@ -50,7 +50,7 @@ What's worse, the error also shoots up, and then creeps up more slowly, soon exc
 
 ### 2. AI OR GENETIC ENGINEERING
 
-This i model as a +10 bonus to everyone's IQ (thanks to AI assistants and/or better genetics). 
+This I model as a +10 bonus to everyone's IQ (thanks to AI assistants and/or better genetics). 
 
 Higher IQ means less errors, more discovery of truth, and more broadcasting. As a result, volume of truth doubles to 8000, and the error drops down to 0.3; it then very slowly rebounds to about 0.4 but still stays better than in pre-AI time. 
 
@@ -81,11 +81,11 @@ Others are likely positive:
 
 Overall, with the number of moving parts even in this primitive simulation, the system is surprisingly stable, chugging along and finding some kind of equilibrium even in the least favorable conditions.
 
-Here it is graphically: Internet happens at 10k, AI at 20k, longevity at 30k:
+Here it is graphically: 
 
 ![history of the world](newplot.png)
 
-Red is average IQ, green is the total amount of culture, blue is the error level in culture.
+Internet happens at 10k, AI at 20k, longevity at 30k. Red is average IQ, green is the total amount of culture, blue is the error level in culture.
 
 ## How to run
 
