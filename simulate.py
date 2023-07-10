@@ -20,11 +20,9 @@ iq_inheritability = 0.6
 iq_to_fertility = -5
 iq_bonus = 0
 
-culture_to_iq = 0.05
-
-culture_dissemination_rate = 0.005  # then suddenly up
+culture_dissemination_rate = 0.005 
+culture_dissemination_rate_per_iq = 10  
 culture_dissemination_radius = 50  # then suddenly up
-culture_dissemination_rate_per_iq = 10  # then suddenly down
 
 avg_breeding_iq_sum = 0
 avg_breeding_iq_n = 0
@@ -111,20 +109,19 @@ class human:
 
         if self.speaking > 0:
             screen.draw.circle(self.pos, culture_dissemination_radius, color="green")
-        self.speaking -= 1
+            self.speaking -= 1
 
         if self.age < 5 and self.parents != None:
             screen.draw.line(self.pos, self.parents[0].pos, (0, 0, 255))
             screen.draw.line(self.pos, self.parents[1].pos, (0, 0, 255))
-        """
-        for i, c in enumerate(self.culture):
+
+        for i, c in enumerate(self.culture):  # comment this out if it runs too slow
             screen.draw.text(
             c,
             (self.pos[0] + i * 7, self.pos[1]),
             fontsize=12,
             color="black" if c == truth[i] else "red",
             )
-        """
 
 
     def dist(self, other):
@@ -151,16 +148,15 @@ def try_birth():
         return None
 
 
-
-
-
-
 def draw():
     global generation
+    generation += 1
+
     screen.fill((255, 255, 255))
+    
     for h in all:
         h.draw()
-    generation += 1
+
     screen.draw.text(
         f"{generation}",
         (20, HEIGHT - 50),
@@ -199,11 +195,8 @@ def draw():
             color="blue",
         )
 
-        fo = open(filename, "a")
-        fo.write(f"{generation},{len(all)},{iq_avg:.1f},{iq_breeding_avg:.1f},{total_culture},{total_errors / total_culture:.3f}\n")
-        fo.close()
-
-
+        with open(filename, "a") as fo:
+            fo.write(f"{generation},{len(all)},{iq_avg:.1f},{iq_breeding_avg:.1f},{total_culture},{total_errors / total_culture:.3f}\n")
 
 
 def update():
@@ -226,8 +219,6 @@ def update():
 
     if generation == 30000:
         longevity += 100
-
-
 
 
 
