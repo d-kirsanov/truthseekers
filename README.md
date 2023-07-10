@@ -69,12 +69,15 @@ This leaves out a lot of possible factors. Some are negative:
 * untruth spreads easier
 * untruth corrupts already-learned truth
 * AIs act less like IQ boosters and more like the Internet, by parroting whatever they hear; or, worse, are used predominantly to spread untruth
+* longevity makes people more prone to untruth as they age
  
 Others are likely positive:
 
+* truth spreads easier 
+* truth corrects already-learned untruth
 * assortative mating
-* truth corrects untruth
 * positive effect of IQ on longevity
+* positive effect of the amount of personal truth on IQ
 
 Overall, with the number of moving parts even in this primitive simulation, the system is surprisingly stable, chugging along and finding some kind of equilibrium even in the least favorable conditions.
 
