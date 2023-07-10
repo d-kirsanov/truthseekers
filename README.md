@@ -78,6 +78,7 @@ Others are likely positive:
 * assortative mating
 * positive effect of IQ on longevity
 * positive effect of the amount of personal truth on IQ
+* negative effect of the amount of personal error on IQ
 
 Overall, with the number of moving parts even in this primitive simulation, the system is surprisingly stable, chugging along and finding some kind of equilibrium even in the least favorable conditions.
 
